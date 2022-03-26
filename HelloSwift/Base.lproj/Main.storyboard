@@ -22,12 +22,12 @@
                                 <color key="textColor" systemColor="secondaryLabelColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0D-wA-fOa">
-                                <rect key="frame" x="154" y="711" width="106" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U0D-wA-fOa">
+                                <rect key="frame" x="109" y="708" width="196" height="31"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="SHOW TEXT" cornerStyle="dynamic">
-                                    <backgroundConfiguration key="background" cornerRadius="16"/>
+                                    <backgroundConfiguration key="background"/>
                                 </buttonConfiguration>
                             </button>
                         </subviews>
@@ -35,12 +35,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="U0D-wA-fOa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Gk-AE-Zl8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U0D-wA-fOa" secondAttribute="bottom" constant="120" id="6ki-de-8YT"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="11O-R0-cdj" secondAttribute="trailing" constant="82" id="D6q-hc-mp0"/>
-                            <constraint firstItem="11O-R0-cdj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="Njd-ng-wJF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="U0D-wA-fOa" secondAttribute="trailing" constant="154" id="X7A-gg-ONn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="11O-R0-cdj" secondAttribute="trailing" constant="82" id="D6q-hc-mp0"/>
+                            <constraint firstItem="11O-R0-cdj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FqG-On-6td"/>
+                            <constraint firstItem="U0D-wA-fOa" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="136" id="HJx-qA-1k3"/>
+                            <constraint firstItem="11O-R0-cdj" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="82" id="Njd-ng-wJF"/>
                             <constraint firstItem="11O-R0-cdj" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="143" id="fzV-bW-SLo"/>
-                            <constraint firstItem="U0D-wA-fOa" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="154" id="gBI-Wp-Wxm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U0D-wA-fOa" secondAttribute="bottom" constant="123" id="jKm-Lb-VkJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="U0D-wA-fOa" secondAttribute="trailing" constant="136" id="wb0-w5-ODL"/>
                         </constraints>
                     </view>
                 </viewController>
