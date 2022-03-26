@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         helloSwiftLabel.isHidden = true
     }
 
-    @IBAction func showTextButton() {
+    @IBAction func showTextButtonPressed() {
         helloSwiftLabel.isHidden.toggle()
         
         if helloSwiftLabel.isHidden {
