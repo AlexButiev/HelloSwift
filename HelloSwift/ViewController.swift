@@ -9,11 +9,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var helloSwiftLabel: UILabel!
+    @IBOutlet var showTextLabel: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func showTextButton() {
+        helloSwiftLabel.isHidden = true
+        
+    }
+    
 }
 
