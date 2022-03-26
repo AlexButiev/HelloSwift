@@ -11,15 +11,20 @@ class ViewController: UIViewController {
 
     @IBOutlet var helloSwiftLabel: UILabel!
     @IBOutlet var showTextLabel: UIButton!
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        helloSwiftLabel.isHidden = true
     }
 
     @IBAction func showTextButton() {
-        helloSwiftLabel.isHidden = true
+        helloSwiftLabel.isHidden.toggle()
         
+        if helloSwiftLabel.isHidden {
+            showTextLabel.setTitle("SHOW TEXT", for: .normal)
+        } else {
+            showTextLabel.setTitle("HIDE TEXT", for: .normal)
     }
-    
 }
-
+}
